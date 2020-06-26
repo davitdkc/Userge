@@ -199,7 +199,7 @@ class _GDrive:
                     self._get_file_path(file_id, file_name)))
             if not file_size:
                 link += '/'
-            out += f"\n👥 __[Shareable Link]({link})__"
+            out += f"\n👥 __[Shareable Link]({link})__\n\n📂 <a href='{Config.G_DRIVE_INDEX_LINK}/Khampret/'>Khampret Drive</a>"
         return out
 
     def _upload_file(self, file_path: str, parent_id: str) -> str:
